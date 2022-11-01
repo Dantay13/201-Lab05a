@@ -33,11 +33,17 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-
+  //here i am declaring a variable named twoNum to take in two numbers as a argument
+  let twoNum = a * b;
+  let thisexample = "The product of " + a + " and " + b + " is " + twoNum + ".";
+  // declare a variable name array1 and assigned it a array ...
+  let array1 = [twoNum, thisexample];
+  return array1;
 }
 
 // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+testMultiply(5,9);
+
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
