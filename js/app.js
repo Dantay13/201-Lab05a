@@ -9,11 +9,17 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
-
+  //here this function is taking in two numbers as an argument
+  let twoSum = a + b;
+  //here we declare a variable X to assigne it a string concatnation to explain the example
+  let string = "The sum of " + a + " and " + b + " is " + twoSum + ".";
+  //here it is returning an array where the first number is the sum of those numbers
+  let result = [twoSum, string];
+  return result;
 }
 
 // Here is the test for sum(); uncomment it to run it
-// testSum(4, 7);
+testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
